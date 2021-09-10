@@ -20,7 +20,7 @@
       }
       #page-wrapper {
         position: relative;
-        
+        top: 100px;
       }
 
       li {
@@ -64,13 +64,16 @@
       }
 
       header {
-        position: relative;
+        position: fixed;
         top: 0;
         min-height: 75px;
+        width: 100%;
         padding: 0px 20px;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        background-color: #FFBD33;
+        z-index: 5;
       }
 
       @media (max-width: 600px) {
@@ -81,7 +84,6 @@
 
       .logo {
         width: 8vw;
-        display: flex;
       }
 
       @media (max-width: 650px) {
